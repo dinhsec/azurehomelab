@@ -6,6 +6,11 @@ The purpose of this Azure Cloud Detection and Analysis Home Lab is to provide ha
 
 The first step is to login to the Azure Portal.
 
-If you do not have an account you can sign up for a free Azure account using the link:
+If you do not have an account you can sign up for a free Azure account using this link:
 https://azure.microsoft.com/en-us/free/
 
+From there we will need to create a resource group. 
+
+A resource group is a container that holds related resources for an Azure solution. The purpose of Azure groups are to group and manage related Azure resources together, which simplifies management, deployment, controlling access, tracking costs, and enabling disaster recovery.
+
+![image](https://user-images.githubusercontent.com/118394420/221387177-f3f94133-72ef-4fb3-a131-ddf261530c35.png)
