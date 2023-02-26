@@ -97,6 +97,18 @@ Add it to our resource group, specify a name and create.
 
 Once deployment is complete, we need to connect Microsoft sentinel to our Log analytics workspace.
 Navigate to Microsoft Sentinel service page and click on create and select our homelabvm and press add.
-Once done, we have successfully connected Sentinel to our Log Analytics workspace.
 
 ![image](https://user-images.githubusercontent.com/118394420/221389068-13360787-c367-483f-8b09-0177c2bee6fb.png)
+
+Now we have our Microsoft Sentinel and Log Analytics workspace connected but there is no data. We need to feed data to Sentinel to see the activity going on in Sentinel. 
+To do this, we will Data connectors which connect Data to our MS Sentinel.
+Since our VM is a Windows 10 VM, we will utilize the Windows Security Events via AMA data connector, search for the connector and open connector page.
+
+![image](https://user-images.githubusercontent.com/118394420/221390244-a5ca195e-8adc-4303-bd6f-1c57c83aebbe.png)
+
+From there, Create data collection rule and specify a rule name. Then connect our 
+
+![image](https://user-images.githubusercontent.com/118394420/221390439-8b12afda-6b7c-4e55-a294-e44537535000.png)
+![image](https://user-images.githubusercontent.com/118394420/221390446-167219cb-d354-43ef-8f39-78a85e98bbc5.png)
+![image](https://user-images.githubusercontent.com/118394420/221390456-69612361-993d-45aa-b51f-6a5f42b3a6c7.png)
+
