@@ -79,4 +79,11 @@ Once enabled, head back to the Networking tab. Here we can see that a new inboun
 
 Head to the Connect tab now, here we see the option for Source IP, we can choose what IPs can access our VM. In this case we want to choose My IP and click request access.
 
+![image](https://user-images.githubusercontent.com/118394420/221388761-71c1c42c-8e46-455c-9cd3-ec9d7936fb9d.png)
+
 ![image](https://user-images.githubusercontent.com/118394420/221388752-031c60a7-e793-413c-bf63-39e5ee06e942.png)
+
+Now if we head back to the Networking tab, we can see a new rule added to the top
+This rule allows our 
+
+![image](https://user-images.githubusercontent.com/118394420/221388806-ff28712e-d8a1-4fa0-941c-ddfb9c2f0296.png)
