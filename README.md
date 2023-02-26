@@ -61,6 +61,10 @@ Navigate to the Microsoft Defender for Cloud service page.
 
 ![image](https://user-images.githubusercontent.com/118394420/221388084-51f634b3-eb6d-48c8-be16-15a82d77bc58.png)
 
-Click on our labgroupvm under "Select workspaces to protect..."
+Click on our labgroupvm under "Select workspaces to protect..." and click on the Enable all button and press save to enable to Microsoft Defender plan.
 
 ![image](https://user-images.githubusercontent.com/118394420/221388125-ec48cb22-a968-4e5a-9e7f-5767afc91994.png)
+
+Then navigate to the Workload protections tab, this shows security alerts, overall security posture, vulnerability assessment, and threat intelligence.
+
+![image](https://user-images.githubusercontent.com/118394420/221388240-e206172c-a184-4f72-b38f-017a179f2bd4.png)
