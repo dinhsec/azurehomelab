@@ -9,6 +9,7 @@ The first step is to login to the Azure Portal.
 If you do not have an account you can sign up for a free Azure account using this link:
 https://azure.microsoft.com/en-us/free/
 
+### Setup Of Lab Resources
 From there we will need to navigate to the resource groups tab.
 
 A resource group is a container that holds related resources for an Azure solution. The purpose of Azure groups are to group and manage related Azure resources together, which simplifies management, deployment, controlling access, tracking costs, and enabling disaster recovery.
