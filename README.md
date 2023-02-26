@@ -49,5 +49,18 @@ Once its deployed, click on the go to resource button to view the VM details
 ![image](https://user-images.githubusercontent.com/118394420/221387801-eb62fadb-fab1-49fa-ae92-65ec53022b47.png)
 
 Note the Public IP address on the right side is what we will use to connect to our VM via RDP later on
+Then click on the Networking tab on the left side to view our network security group, here we can see our inbound port rules, outbound portrules, etc
 
 ![image](https://user-images.githubusercontent.com/118394420/221387829-77d58a37-4848-4871-bdc9-23e900100f76.png)
+
+Note the first rule named "RDP", what this rule is saying is that it will allow any source to connect via RDP to our VM. This is dangerous because an adversary scan and obtain the IP address of our VM making our VM vulnerable to brute-force or password spraying attacks.
+
+To protect our VM from this vulnerability we can utilize something called Just In Time Access.
+
+Navigate to the Microsoft Defender for Cloud service page.
+
+![image](https://user-images.githubusercontent.com/118394420/221388084-51f634b3-eb6d-48c8-be16-15a82d77bc58.png)
+
+Click on our labgroupvm under "Select workspaces to protect..."
+
+![image](https://user-images.githubusercontent.com/118394420/221388125-ec48cb22-a968-4e5a-9e7f-5767afc91994.png)
