@@ -40,3 +40,14 @@ Then specify a username and password for the Administrator account leave the RDP
 
 ![image](https://user-images.githubusercontent.com/118394420/221387662-1c6c6917-c1ac-4c3c-8698-988b5c3e9b5f.png)
 
+Click the create button to create our VM and wait for the deployment to complete
+
+![image](https://user-images.githubusercontent.com/118394420/221387733-732c8c95-61ee-4ac9-86a1-c1f3d071ff4b.png)
+
+Once its deployed, click on the go to resource button to view the VM details
+
+![image](https://user-images.githubusercontent.com/118394420/221387801-eb62fadb-fab1-49fa-ae92-65ec53022b47.png)
+
+Note the Public IP address on the right side is what we will use to connect to our VM via RDP later on
+
+![image](https://user-images.githubusercontent.com/118394420/221387829-77d58a37-4848-4871-bdc9-23e900100f76.png)
