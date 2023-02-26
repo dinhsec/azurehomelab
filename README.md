@@ -53,18 +53,30 @@ Then click on the Networking tab on the left side to view our network security g
 
 ![image](https://user-images.githubusercontent.com/118394420/221387829-77d58a37-4848-4871-bdc9-23e900100f76.png)
 
-Note the first rule named "RDP", what this rule is saying is that it will allow any source to connect via RDP to our VM. This is dangerous because an adversary scan and obtain the IP address of our VM making our VM vulnerable to brute-force or password spraying attacks.
+Note the first rule named "RDP", what this rule is saying is that it will allow any source to connect via RDP to our VM. This is dangerous because an adversary scan and obtain the IP address of our VM making our VM vulnerable to brute-force or password spraying attacks
 
-To protect our VM from this vulnerability we can utilize something called Just In Time Access.
+To protect our VM from this vulnerability we can utilize something called Just-In-Time VM Access
 
-Navigate to the Microsoft Defender for Cloud service page.
+Navigate to the Microsoft Defender for Cloud service page
 
 ![image](https://user-images.githubusercontent.com/118394420/221388084-51f634b3-eb6d-48c8-be16-15a82d77bc58.png)
 
-Click on our labgroupvm under "Select workspaces to protect..." and click on the Enable all button and press save to enable to Microsoft Defender plan.
+Click on our labgroupvm under "Select workspaces to protect..." and click on the Enable all button and press save to enable to Microsoft Defender plan
 
 ![image](https://user-images.githubusercontent.com/118394420/221388125-ec48cb22-a968-4e5a-9e7f-5767afc91994.png)
 
-Then navigate to the Workload protections tab, this shows security alerts, overall security posture, vulnerability assessment, and threat intelligence.
+Then navigate to the Workload protections tab, this shows security alerts, overall security posture, vulnerability assessment, and threat intelligence
 
 ![image](https://user-images.githubusercontent.com/118394420/221388240-e206172c-a184-4f72-b38f-017a179f2bd4.png)
+
+Go back to the VM page and select the configuration tab, and enable Just-In-Time VM access
+
+![image](https://user-images.githubusercontent.com/118394420/221388310-bd7b8c16-e47e-4d58-89f1-2d70f82a3201.png)
+
+Once enabled, head back to the Networking tab. Here we can see that a new inbound port rule has been added. This rule denies any type of connection to our VM through port 3389.
+
+![image](https://user-images.githubusercontent.com/118394420/221388367-e30c6e16-92b5-43d6-8f47-b0bf75b99933.png)
+
+Head to the Connect tab now, here we see the option for Source IP, we can choose what IPs can access our VM. In this case we want to choose My IP and click request access.
+
+![image](https://user-images.githubusercontent.com/118394420/221388752-031c60a7-e793-413c-bf63-39e5ee06e942.png)
