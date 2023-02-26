@@ -97,5 +97,6 @@ Add it to our resource group, specify a name and create.
 
 Once deployment is complete, we need to connect Microsoft sentinel to our Log analytics workspace.
 Navigate to Microsoft Sentinel service page and click on create and select our homelabvm and press add.
+Once done, we have successfully connected Sentinel to our Log Analytics workspace.
 
 ![image](https://user-images.githubusercontent.com/118394420/221389068-13360787-c367-483f-8b09-0177c2bee6fb.png)
