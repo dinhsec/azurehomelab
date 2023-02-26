@@ -115,3 +115,4 @@ Select all security events.
 ![image](https://user-images.githubusercontent.com/118394420/221390456-69612361-993d-45aa-b51f-6a5f42b3a6c7.png)
 
 Then review + create and press create to connect our data connector to sentinel.
+
