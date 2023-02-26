@@ -106,9 +106,16 @@ Since our VM is a Windows 10 VM, we will utilize the Windows Security Events via
 
 ![image](https://user-images.githubusercontent.com/118394420/221390244-a5ca195e-8adc-4303-bd6f-1c57c83aebbe.png)
 
-From there, Create data collection rule and specify a rule name. Then connect our 
+From there, Create data collection rule and specify a rule name.
 
 ![image](https://user-images.githubusercontent.com/118394420/221390439-8b12afda-6b7c-4e55-a294-e44537535000.png)
+
+Then connect our home lab resource group.
+
 ![image](https://user-images.githubusercontent.com/118394420/221390446-167219cb-d354-43ef-8f39-78a85e98bbc5.png)
+
+Select all security events.
+
 ![image](https://user-images.githubusercontent.com/118394420/221390456-69612361-993d-45aa-b51f-6a5f42b3a6c7.png)
 
+Then review + create and press create to connect our data connector to sentinel.
