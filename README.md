@@ -84,6 +84,18 @@ Head to the Connect tab now, here we see the option for Source IP, we can choose
 ![image](https://user-images.githubusercontent.com/118394420/221388752-031c60a7-e793-413c-bf63-39e5ee06e942.png)
 
 Now if we head back to the Networking tab, we can see a new rule added to the top
-This rule allows our 
+This rule allows only our source IP to be able to access our VM.
 
 ![image](https://user-images.githubusercontent.com/118394420/221388806-ff28712e-d8a1-4fa0-941c-ddfb9c2f0296.png)
+
+Now that we have setup our VM and locked down access to it. We need to setup our Log Analytics workspaces.
+Head to the Log Analytics workspaces service page and click create.
+
+Add it to our resource group, specify a name and create.
+
+![image](https://user-images.githubusercontent.com/118394420/221389001-e46091bb-9bc5-4e1e-bf6d-5c963409a3b1.png)
+
+Once deployment is complete, we need to connect Microsoft sentinel to our Log analytics workspace.
+Navigate to Microsoft Sentinel service page and click on create and select our homelabvm and press add.
+
+![image](https://user-images.githubusercontent.com/118394420/221389068-13360787-c367-483f-8b09-0177c2bee6fb.png)
